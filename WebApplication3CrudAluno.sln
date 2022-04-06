@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3CrudAluno", "WebApplication3CrudAluno\WebApplication3CrudAluno.csproj", "{605BBEDF-AD06-4114-A5C2-821A10D46515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605BBEDF-AD06-4114-A5C2-821A10D46515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605BBEDF-AD06-4114-A5C2-821A10D46515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605BBEDF-AD06-4114-A5C2-821A10D46515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605BBEDF-AD06-4114-A5C2-821A10D46515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {914DC1E1-2782-4CE5-9D80-5D3514D83E50}
+	EndGlobalSection
+EndGlobal

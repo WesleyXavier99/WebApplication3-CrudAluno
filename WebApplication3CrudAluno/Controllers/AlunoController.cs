@@ -1,9 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication3.ViewModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using WebApplication3CrudAluno.ViewModel;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace WebApplication3.Controllers
+namespace WebApplication3CrudAluno.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -11,7 +15,7 @@ namespace WebApplication3.Controllers
     {
         // GET: api/<AlunoController>
         [HttpGet]
-        public IEnumerable<string> Get( )
+        public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
@@ -25,28 +29,8 @@ namespace WebApplication3.Controllers
 
         // POST api/<AlunoController>
         [HttpPost]
-        public string Post([FromBody] AlunoViewModel aluno)
+        public void Post([FromBody] AlunoViewModel aluno)
         {
-            //validar nome e turno
-            if (!aluno.ValidaNome())
-            {
-                return "O nome do aluno não é válido!";
-            }
-
-            //validar matricula
-            if (!aluno.ValidaMat() )
-            {
-                return "A matricula do aluno não é válida!";
-            }
-
-            //validar turno
-            if (!aluno.ValidaTurno())
-            {
-                return "O turno do aluno não é válido!";
-            }
-
-            return "Aluno foi cadastrado com sucesso!";
-
         }
 
         // PUT api/<AlunoController>/5

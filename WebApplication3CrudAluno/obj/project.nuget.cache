@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "m6iGVhIOjtH0h4FIrBrbGSZnpp/rXnsj6SMEBOGZJ/B9/PwOEXioqMz8lIhxd/BQDVVWmJo+DjU9LjWfSpGuow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aneves\\source\\repos\\WebApplication3CrudAluno\\WebApplication3CrudAluno\\WebApplication3CrudAluno.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aneves\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\aneves\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\aneves\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\aneves\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\aneves\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\aneves\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
